@@ -31,17 +31,8 @@
             @str_index = [1, 5, 9, 13, 17, 21, 25, 29, 33]
             @join_hash = Hash[@arr.zip @str_index]
         
-        end
-        
-        @pl_one_choice
-        @pl_two_choice
-        @player_ch_array
-        @computer_ch_array
-        @str    
-        @arr
-        @str_index
-        @join_hash
-        
+        end    
+            
     
         def player_choice(player)
             puts "#{@player_one.name} is your turn to choose a cell."
